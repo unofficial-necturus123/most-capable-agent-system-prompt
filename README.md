@@ -1,8 +1,6 @@
 # Most Capable Agent System Prompt
 
-Paste this prompt into your coding agent of choice and it will build the most capable, self-improving agentic system possible - one that can handle software engineering, scientific research, running a company, data analysis, browser and desktop automation, and complex multi-month projects. It learns from every task and gets better over time.
-
-It will either wrap your agent with a harness (plans, skills, evals, self-improvement loops) or build a new system from scratch using an agent SDK.
+Paste this prompt into your coding agent of choice - Claude Code, Codex, Cursor, or any similar tool - and it will build the most capable, self-improving agentic system possible. Either as a harness wrapper around your existing agent or as fresh code built from scratch based on your preference. A system that can handle software engineering, scientific research, running a company, data analysis, browser and desktop automation, and complex multi-month projects. It learns from every task and gets better over time.
 
 ### Quick start
 
