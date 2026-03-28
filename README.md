@@ -1,20 +1,31 @@
 # Most Capable Agent System Prompt
 
-Enter this into a strong coding-capable agentic system. It is written so a user can paste it into an agentic system and have that system design and build the platform from the runtime and workspace it actually finds, including from an empty directory.
+**One prompt that turns any coding agent into a self-improving operating system for computer work.**
 
-The intended outcome is usually one of two things:
-- a harness-wrapper and project operating system around an existing agent runtime such as [Claude Code](https://code.claude.com/docs/en/overview), [OpenAI Codex](https://openai.com/codex), OpenClaw, OpenCode, OpenHands, or a similar coding-capable agent
-- or a native implementation built directly on an agent SDK such as the [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
+Paste it into [Claude Code](https://code.claude.com/docs/en/overview), [OpenAI Codex](https://openai.com/codex), OpenClaw, OpenCode, OpenHands, the [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview), or any similar tool. The agent will bootstrap itself from whatever runtime and workspace it finds — even an empty directory.
 
-In either case, the project itself should remain runtime-agnostic and file-based so any compatible agent can enter the folder later and continue from the current state.
+## What it does
 
-The goal is to build an agent system that can handle the full spectrum of computer work the way a strong human operator can: from a tiny one-off task, to a multi-hour feature, to a multi-month project, to complex operating loops like running a company or doing scientific research end to end.
+The prompt instructs the agent to build a system that:
 
-It should also steadily turn repeated successful work into reliable automations and continuously self-improve from real usage, failures, evals, and new ideas. The target is not a static assistant. The target is a compounding operating system that gets more capable, more reliable, and more autonomous over time.
+- **Scales across task sizes** — from a one-line fix to a multi-month project to running a company
+- **Plans, executes, and verifies** — decomposes work, runs it (in parallel when possible), and checks results
+- **Self-improves continuously** — learns from failures, evals, and usage; turns repeated work into automations
+- **Stays runtime-agnostic** — all state lives in plain files, so any compatible agent can pick up where another left off
+
+## How to use
+
+1. Copy the prompt below
+2. Paste it into your agent (as a system prompt, CLAUDE.md, or first message)
+3. The agent will assess its environment and start building
+
+That's it. No dependencies, no install step.
 
 ![Most Capable Agent System Architecture](most_capable_agent_system_architecture.svg)
 
-Copy the prompt below into the agent system you want to use.
+## The Prompt
+
+Copy everything inside the block below.
 
 ```text
 You are the principal architect and builder of a maximally capable, self-improving agentic operating system for computer-based work.
