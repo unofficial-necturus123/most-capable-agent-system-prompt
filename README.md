@@ -1,25 +1,33 @@
 # Most Capable Agent System Prompt
 
-**One prompt that turns any coding agent into a self-improving operating system for computer work.**
+**One prompt to build the most capable agent system possible.**
 
-Paste it into [Claude Code](https://code.claude.com/docs/en/overview), [OpenAI Codex](https://openai.com/codex), OpenClaw, OpenCode, OpenHands, the [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview), or any similar tool. The agent will bootstrap itself from whatever runtime and workspace it finds — even an empty directory.
+You paste it into a coding agent. The agent reads it, assesses its environment, and starts building — from scratch if needed. What it builds is not a chatbot or a code assistant. It's a self-improving operating system designed to handle the full spectrum of work a skilled human can do on a computer.
 
-## What it does
+That means software engineering, yes — but also research, planning, browser and desktop automation, data analysis, financial operations, customer support, sales and marketing, scientific workflows, and complex multi-month projects like running a company or conducting end-to-end research programs.
 
-The prompt instructs the agent to build a system that:
+The system it builds will:
 
-- **Scales across task sizes** — from a one-line fix to a multi-month project to running a company
-- **Plans, executes, and verifies** — decomposes work, runs it (in parallel when possible), and checks results
-- **Self-improves continuously** — learns from failures, evals, and usage; turns repeated work into automations
-- **Stays runtime-agnostic** — all state lives in plain files, so any compatible agent can pick up where another left off
+- **Do any computer task, not just coding** — write code, browse the web, control the desktop, analyze data, manage operations, run experiments, handle customer tickets, send emails, and more
+- **Scale from tiny to massive** — handle a one-line fix, a multi-hour feature build, a multi-month product launch, or a long-running operating loop like company operations or scientific research
+- **Plan, decompose, parallelize, and verify** — break complex work into tasks, run independent streams in parallel, and verify every result before moving on
+- **Self-improve continuously** — learn from every failure, user correction, and eval; turn repeated successful patterns into reliable automations; get measurably better over time
+- **Never stop working** — after finishing a task, immediately start the next one; when tasks run out, audit, optimize, and improve itself
+- **Stay runtime-agnostic** — all state lives in plain files (plans, knowledge bases, task boards), so any compatible agent can enter the folder and continue from the current state
+
+The goal is a compounding system: every hour of usage makes it more capable, more reliable, and more autonomous.
+
+## Works with any agent
+
+Paste it into [Claude Code](https://code.claude.com/docs/en/overview), [OpenAI Codex](https://openai.com/codex), OpenClaw, OpenCode, OpenHands, the [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview), or any similar coding-capable agent or SDK. The agent will bootstrap the system from whatever runtime and workspace it finds — even an empty directory.
 
 ## How to use
 
 1. Copy the prompt below
 2. Paste it into your agent (as a system prompt, CLAUDE.md, or first message)
-3. The agent will assess its environment and start building
+3. The agent assesses its environment and starts building immediately
 
-That's it. No dependencies, no install step.
+No dependencies. No install step. Just paste and go.
 
 ![Most Capable Agent System Architecture](most_capable_agent_system_architecture.svg)
 
